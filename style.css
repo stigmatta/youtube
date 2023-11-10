@@ -1,0 +1,142 @@
+body{
+    margin-left: 5vw;
+    font-family: 'Roboto', sans-serif;
+    height: fit-content;
+    padding-top: 10em;
+}
+#all{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    height: 100vw;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.main>video{
+    width: 70vw;
+}
+h4{
+    margin-top: 0.2em;
+}
+#channel-info{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+}
+#channel-name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1em;
+    font-weight:600;
+}
+#subscribers,#additional{
+    font-size: 0.7em;
+    color: gray;
+}
+#subscribe-button{
+    width: 8em;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    background-color: black;
+    border-radius: 5em;
+    color: white;
+    margin-left: 2em;
+}
+#like-dislike-share{
+    display: flex;
+    align-items: center;
+    margin-left: 10em;
+    width: 15em;
+}
+#like-dislike,#share{
+    padding-left: 0.5em;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 60%;
+    background-color: rgb(228, 216, 216);
+    border-radius: 5em;
+}
+#like:hover,#dislike:hover,#share:hover,#subscribe-button:hover,#logo:hover{
+    cursor: pointer;
+}
+#share{
+    margin-left: 1em;
+    justify-content: center;
+    padding-left: 0;
+}
+#description{
+    margin-top: 1em;
+    padding: 2em;
+    background-color: rgb(228, 216, 216);
+    border-radius: 2em;
+    height: fit-content;
+    font-size: 0.7em;
+}
+#additional{
+   height: fit-content;
+   width: 20em;
+}
+.additional-row{
+    display: flex;
+    margin-top: 2em;
+    height: 30%;
+    width: 100%;
+}
+.additional-first-col{
+    width:45%;
+}
+.additional-second-col{
+    margin-left: 2em;
+    width: 50%;
+}
+aside{
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100%;
+    height: 50em;
+}
+.one-film{
+    margin-top: 1em;
+    display: flex;
+    width:100%;
+}
+.one-film img{
+    border-radius: 15%;
+    width: 100%;
+    height: 100%;
+}
+.one-film-description{
+    margin-left: 1em;
+    margin-top: 0.3em;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+h5{
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+h6{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    color: gray;
+}
+a{
+    margin: 0;
+    padding: 0;
+    width:7em;
+    height: 5em;
+}
